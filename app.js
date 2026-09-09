@@ -16,7 +16,7 @@ const app = express();
 app.use(
     cors({
         origin: [
-            "http://localhost:5173",
+            "https://pareesatodo.netlify.app",
             process.env.FRONTEND_URL
         ].filter(Boolean),
         credentials: true
