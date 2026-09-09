@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import Task from "../models/taskModel.js";
+import Task from "../models/TaskModel.js";
 
 export const getTasksByUserAndDate = async (req, res) => {
   try {
